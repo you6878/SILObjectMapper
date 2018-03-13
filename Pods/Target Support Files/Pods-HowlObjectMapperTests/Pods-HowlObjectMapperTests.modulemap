@@ -1,0 +1,6 @@
+framework module Pods_HowlObjectMapperTests {
+  umbrella header "Pods-HowlObjectMapperTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

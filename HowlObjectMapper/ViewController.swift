@@ -12,6 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var json_str = """
+{ "name":"John", "age":31, "city":"New York" }
+"""
+        var userDTO = UserDTO(JSONString: json_str)
+        
+        print((userDTO?.name)!)
+        print((userDTO?.age)!)
+        print((userDTO?.city)!)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
